@@ -18,6 +18,12 @@
   align-items: center;
 }
 
+.question__answer {
+  font-size: 20px;
+  line-height: 37px;
+  margin: 10px 0;
+}
+
 .question__flower {
   width: 450px;
   height: 900px;
@@ -235,6 +241,12 @@
     font-size: 24px;
     height: 60px;
   }
+
+  .question__answer {
+    font-size: 18px;
+    line-height: 33px;
+    margin: 7px 0;
+  }
 }
 
 @media screen and (max-width: 1300px) {
@@ -289,6 +301,12 @@
     font-size: 24px;
     height: 45px;
     width: 300px;
+  }
+
+  .question__answer {
+    font-size: 14px;
+    line-height: 28px;
+    margin: 15px 0 5px 0;
   }
 }
 
@@ -365,5 +383,10 @@
     width: 155px;
     height: 40px;
     font-size: 16px;
+  }
+
+  .question__answer {
+    font-size: 16px;
+    line-height: 22px;
   }
 }

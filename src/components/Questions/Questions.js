@@ -41,17 +41,17 @@ function Questions() {
             </p>
             <fieldset className="question__string">Предпочтения по еде:
               <label  htmlFor="trout" className="question__label">
-                <input className="question__unvisible" type="radio" name="Еда" value="Форель" id="trout"></input>
+                <input className="question__unvisible" type="radio" name="Еда" value="Форель на пару и цукини" id="trout"></input>
                 <span className="question__visible-radio"></span>
                 <span className="question__text-span">Форель на пару и цукини</span>
               </label>
               <label className="question__label" htmlFor="beef">
-                <input className="question__unvisible" type="radio" name="Еда" value="Говядина" id="beef"></input>
+                <input className="question__unvisible" type="radio" name="Еда" value="Стейк из говядины и сырное пюре" id="beef"></input>
                 <span className="question__visible-radio"></span>
                 <span className="question__text-span">Стейк из говядины и сырное пюре</span>
               </label>
               <label className="question__label" htmlFor="duck">
-                <input className="question__unvisible" type="radio" name="Еда" value="Утка" id="duck"></input>
+                <input className="question__unvisible" type="radio" name="Еда" value="Утка, яблоки и сельдереевое пюре" id="duck"></input>
                 <span className="question__visible-radio"></span>
                 <span className="question__text-span">Утка, яблоки и сельдереевое пюре</span>
               </label>
@@ -99,7 +99,7 @@ function Questions() {
         :
         <div>
           <img src={question} alt="опрос" className="question__header"></ img>
-          <p className="question__text">Форма отправлена!</p>
+          <p className="question__answer">Форма отправлена!</p>
         </div>
         }
       </div>

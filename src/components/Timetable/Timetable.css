@@ -216,15 +216,14 @@
   }
 
   .timetable__block {
-    grid-template-rows: repeat(7, 99px);
+    grid-template-rows: repeat(6, 99px);
     grid-template-columns: 1fr 30px 1fr;
     grid-template-areas:
-      "rings line-rings text-rings"
-      "text-foto line-foto foto"
+      "foto line-rings text-rings"
+      "text-foto line-foto rings"
       "glasses line-glasses text-glasses"
       "text-plate line-plate plate"
       "cake line-cake text-cake"
-      "text-music line-music music"
       "car line-car text-car";
     margin-top: 30px;
     column-gap: 15px;

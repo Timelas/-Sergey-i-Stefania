@@ -58,37 +58,37 @@ function Questions() {
             </fieldset>
             <fieldset className="question__string">Предпочтения по алкоголю:
             <label  htmlFor="whiskey" className="question__label">
-                <input className="question__unvisible" type="checkbox" name="Алкоголь" value="Виски" id="whiskey"></input>
+                <input className="question__unvisible" type="checkbox" name="Виски" value="Виски" id="whiskey"></input>
                 <span className="question__visible-checkbox"></span>
                 <span className="question__text-span">Виски</span>
               </label>
               <label className="question__label" htmlFor="cognac">
-                <input className="question__unvisible" type="checkbox" name="Алкоголь" value="Коньяк" id="cognac"></input>
+                <input className="question__unvisible" type="checkbox" name="Коньяк" value="Коньяк" id="cognac"></input>
                 <span className="question__visible-checkbox"></span>
                 <span className="question__text-span">Коньяк</span>
               </label>
               <label className="question__label" htmlFor="dry white wine">
-                <input className="question__unvisible" type="checkbox" name="Алкоголь" value="Белое сухое" id="dry white wine"></input>
+                <input className="question__unvisible" type="checkbox" name="Белое сухое" value="Белое сухое" id="dry white wine"></input>
                 <span className="question__visible-checkbox"></span>
                 <span className="question__text-span">Белое сухое вино</span>
               </label>
               <label className="question__label" htmlFor="sweet white wine">
-                <input className="question__unvisible" type="checkbox" name="Алкоголь" value="Белое сладкое" id="sweet white wine"></input>
+                <input className="question__unvisible" type="checkbox" name="Белое сладкое" value="Белое сладкое" id="sweet white wine"></input>
                 <span className="question__visible-checkbox"></span>
                 <span className="question__text-span">Белое сладкое вино</span>
               </label>
               <label className="question__label" htmlFor="dry red wine">
-                <input className="question__unvisible" type="checkbox" name="Алкоголь" value="Красное сухое" id="dry red wine"></input>
+                <input className="question__unvisible" type="checkbox" name="Красное сухое" value="Красное сухое" id="dry red wine"></input>
                 <span className="question__visible-checkbox"></span>
                 <span className="question__text-span">Красное сухое вино</span>
               </label>
               <label className="question__label" htmlFor="sweet red wine">
-                <input className="question__unvisible" type="checkbox" name="Алкоголь" value="Красное сладкое" id="sweet red wine"></input>
+                <input className="question__unvisible" type="checkbox" name="Красное сладкое" value="Красное сладкое" id="sweet red wine"></input>
                 <span className="question__visible-checkbox"></span>
                 <span className="question__text-span">Красное сладкое вино</span>
               </label>
               <label className="question__label" htmlFor="no-alco">
-                <input className="question__unvisible" type="checkbox" name="Алкоголь" value="Б/а напитки" id="no-alco"></input>
+                <input className="question__unvisible" type="checkbox" name="Б/а напитки" value="Б/а напитки" id="no-alco"></input>
                 <span className="question__visible-checkbox"></span>
                 <span className="question__text-span">Б/а напитки</span>
               </label>

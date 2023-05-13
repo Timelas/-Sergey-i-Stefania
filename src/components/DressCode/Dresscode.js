@@ -6,7 +6,7 @@ function Dresscode() {
   return (
     <section className="dresscode" id="dresscode">
       <img src={dresscode} alt="заголовок" className="dresscode__header"></ img>
-      <p className="dresscode__description">БУДЕМ ПРИЗНАТЕЛЬНЫ, ЕСЛИ ВЫ ПОДДЕРЖИТЕ ЦВЕТОВУЮ ГАММУ НАШЕГО ПРАЗДНИКА В СВОИХ НАРЯДАХ:</p>
+      <p className="dresscode__description">Будем признательны, если вы поддержите цветовую гамму нашего праздника в своих нарядах, исключив белый цвет в женских нарядах:</p>
       <div className="dresscode__colors">
         <div className="dresscode__color dresscode__color_var_one"></div>
         <div className="dresscode__color dresscode__color_var_two"></div>
